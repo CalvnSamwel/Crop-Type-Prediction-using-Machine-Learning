@@ -67,6 +67,8 @@ The project leverages **historical satellite imagery** from **2008–2021** to p
 - ⚠️ Class Simplification: Non-corn/soy crops grouped into "Other"
 - ⚠️ Temporal Gaps: Annual snapshots limit finer-scale transitions
 - ⚠️ Stationarity Assumption: Model assumes historical transition rules remain unchanged
+
+
 **🔥 Future Improvements**
 - 🚀 Hybrid Model: Mixing Random Forest learning with probability-based classification for efficiency & accuracy
 - 🗺️ Spatial Analysis: Introducing geospatial trends to refine predictions
