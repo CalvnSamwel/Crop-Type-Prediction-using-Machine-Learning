@@ -62,12 +62,12 @@ The project leverages **historical satellite imagery** from **2008–2021** to p
   - **Other:** Precision **98.76%**, Recall **94.79%**  
 
 ### 🚧 **Challenges & Future Refinements**
-### 🛠️ Challenges Faced
+**🛠️ Challenges Faced**
 - ⚠️ Resolution Mismatch: The 2007 dataset (56m) was dropped for consistency
 - ⚠️ Class Simplification: Non-corn/soy crops grouped into "Other"
 - ⚠️ Temporal Gaps: Annual snapshots limit finer-scale transitions
 - ⚠️ Stationarity Assumption: Model assumes historical transition rules remain unchanged
-### 🔥 Future Improvements
+**🔥 Future Improvements**
 - 🚀 Hybrid Model: Mixing Random Forest learning with probability-based classification for efficiency & accuracy
 - 🗺️ Spatial Analysis: Introducing geospatial trends to refine predictions
 - 📊 Dynamic Transition Modeling: Moving toward adaptive transition probabilities rather than fixed history window
